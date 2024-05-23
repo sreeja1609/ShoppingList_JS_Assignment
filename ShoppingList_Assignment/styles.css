@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    background-color: #f5f5f5; 
+    box-sizing: border-box;
+}
+h2{
+    color: palevioletred;
+}
+
+.container {
+    text-align: center;
+    width: 100vw;
+    /* height: 60vh; */
+    margin: auto;
+    background-color: #ACE2E1;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#new-item {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+#shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shopping-item {
+    background-color: #FBF3D5;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.marked-item {
+    background-color: #A5DD9B;
+}
+
+.marked-item .item-text {
+    text-decoration: line-through;
+}
+
+.shopping-item .delete-button {
+    background: none;
+    border: none;
+    color: #f00;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#items-count {
+    margin-top: 20px;
+    font-size: 16px;
+}
